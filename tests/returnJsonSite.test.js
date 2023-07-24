@@ -1,4 +1,4 @@
-// app.test.js
+
 const request = require('supertest');
 const app = require('../server');
 
@@ -24,7 +24,7 @@ describe('Teste do endpoint /search', () => {
       });
       
 
-    expect(response.statusCode).toBe(200); // Verifica se o status code é 200 (OK)
+    expect(response.statusCode).toBe(200); 
   
 });
 
