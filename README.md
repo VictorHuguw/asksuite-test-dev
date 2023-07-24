@@ -1,7 +1,5 @@
 # asksuite-test-dev
 
-## README.md
-
 ### Modificações no Código Base
 
 Foram feitas algumas modificações no código base para melhorar a manipulação dos dados. Tendo em vista que já existia uma classe chamada `getBrowser`, essa classe foi reutilizada para realizar o trabalho do controller da aplicação, de forma que a maior parte da lógica ficasse dentro dela. Dessa forma, o controller apenas invoca os métodos do `BrowserService` para realizar as tarefas desejadas de forma mais assíncrona.
