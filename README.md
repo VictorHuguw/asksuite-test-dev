@@ -36,3 +36,7 @@ npm run test
 ### Técnicas de Organização e Produtividade
 
 Durante o desenvolvimento, foram utilizadas algumas técnicas que permitiram trabalhar de forma mais concentrada e organizada. Algumas dessas técnicas incluem o uso de Kanban (utilizando o Trello) para gerenciar tarefas e o Pomodoro, com sessões de foco para determinadas partes do projeto.
+
+### Assets
+
+Deixei alguns arquivos no assets com prints de testes que fiz e os respectivos retornos além do board no trello com as tasks organizadas
