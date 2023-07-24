@@ -25,8 +25,5 @@ describe('Teste do endpoint /search', () => {
       
 
     expect(response.statusCode).toBe(200); 
-  
-});
-
-
+  });
 });
