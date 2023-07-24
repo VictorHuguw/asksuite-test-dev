@@ -12,9 +12,11 @@ Para melhor manipulação das datas fornecidas, foram criadas algumas funções 
 
 Considerando que os métodos de busca por nome, descrição e preço são realizados de forma semelhante, foi decidido unificá-los em uma única função chamada `getInfo`. Essa função recebe como parâmetros a `page` e o conteúdo (seletores) a ser buscado.
 
-### Verificação das Datas
+### Verificação e validação das Datas
 
-Foi realizada uma verificação das datas, pois o site de busca permite que apenas uma busca seja feita se o cliente ficar hospedado por no mínimo 3 noites.
+* Foi realizada verificação das datas, pois o site de busca permite que apenas uma busca seja feita se o cliente ficar hospedado por no mínimo 3 noites.
+* Foi realizada verificação das datas para verificar se a data de checkin nao é menor que o dia de hoje
+* Foi realizada verificação das datas para verificar se a data de checkout nao é menor que a data de checkin
 
 ### Bibliotecas Instaladas
 
