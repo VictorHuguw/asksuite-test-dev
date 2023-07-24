@@ -1,0 +1,18 @@
+Foi feito algumas modificações no codigo base para que a manipulaçao dos dados sejam melhores
+
+Tendo em vista que ja existia uma classe chamada getBrowser, reutilizei essa classe para fazer o trabalho do controller da aplicação de forma que quase toda a logica estivesse dentro dela então eu apenas jogo da minha rota e faço todo o trabalho dentro do meu BrowserService para melhorar a manipulação de dados assincronos
+
+Criei algumas funções auxiliares par trabalhar em cima das datas fornecidas de forma que me retornasse apenas o dia, mes e ano das datas para que eu pudesse utilizar na url, optei por jogar essa logica dentro de outro arquivo na pasta utils de modo que eu possa utilizar essa mesma função em outros arquivos caso seja necessário
+
+Tendo em vista que 3 metodos de busca que são o nome, descricao e preco são feitos de forma semelhantes optei por deixar em uma unica funcao chamada getInfo que recebe como parametro a page e tambem o conteudo que no caso são os seletores
+
+Foi feita uma verificação para as datas pois o site de buscar permite que apenas uma busca seja feito caso o cliente fique por no minimo 3 noites
+
+Instalei algumas bibliotecas, são elas :
+
+* Jest para testes
+* Body-parser para trabalhar com json
+
+Utilize npm run test para executar os testes
+
+Utilizei algumas tecnicas que permitissem que trabalhasse de forma concentrada e organizada como o kanban (utilizando o trello) e pomodoro com sessoes de foco para determinadas partes
